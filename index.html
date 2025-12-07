@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Ahsan Tariq - Senior Python Engineer specializing in backend engineering, AI-driven systems, and data automation.">
+    <title>Ahsan Tariq | Senior Python Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">AT.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="menu-btn-burger"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <span class="hero-subtitle">Hello, I'm</span>
+                <h1 class="hero-title">Ahsan Tariq</h1>
+                <h2 class="hero-role">Senior Python Engineer</h2>
+                <p class="hero-description">
+                    Specializing in <strong>backend engineering</strong>, <strong>AI-driven systems</strong>, and
+                    end-to-end <strong>data automation</strong>.
+                    Proven track record in designing and scaling enterprise-grade platforms using microservice
+                    architectures and robust monolithic frameworks.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ahsan-tariq-comp-engr/" target="_blank" title="LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ahsantariq7" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://github.com/tariqdreamstech" target="_blank" title="GitHub (Org)"><i
+                            class="fab fa-github-alt"></i></a>
+                    <a href="mailto:ahsantariq0724@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Summary Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Summary</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-content">
+                    <p>
+                        Senior Python Engineer with 8+ years of experience specializing in backend engineering,
+                        AI-driven systems, and end-to-end data automation. Proven track record in designing and scaling
+                        enterprise-grade platforms using both microservice architectures (FastAPI) and robust monolithic
+                        frameworks (Django).
+                    </p>
+                    <p>
+                        Expert in building intelligent, multi-agent AI workflows leveraging LangGraph, LangChain, and
+                        advanced RAG architectures, backed by vector databases such as Pinecone and MongoDB Atlas Vector
+                        Search. Skilled in architecting secure, multi-tenant SaaS systems with RBAC, JWT/SSO
+                        authentication, and seamless integrations across AWS, Azure, and GCP ecosystems.
+                    </p>
+                    <p>
+                        Extensive experience crafting resilient ETL pipelines using AWS Glue, Lambda, and S3, processing
+                        large-scale structured and unstructured datasets. Adept at real-time, event-driven communication
+                        with WebSockets, and integrating mission-critical services including Stripe, Twilio, and
+                        workflow automation via N8N.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Oct 2024 -- Dec 2024</div>
+                        <div class="timeline-content">
+                            <h3>Backend Software Engineer</h3>
+                            <span class="company">LLHAM Project | Remote, USA</span>
+                            <p class="role-desc">AI-Powered Proposal Generation Platform</p>
+                            <ul>
+                                <li>Architected a dual-repository system: <strong>llham-agents</strong> submodule for
+                                    isolated AI logic with LangGraph orchestration, and
+                                    <strong>backend-management</strong> Django monolith.
+                                </li>
+                                <li>Designed multi-agent workflow with specialized agents (Master Agent, Business
+                                    Analyst, Technical Architect, etc.) powered by OpenAI GPT-4.</li>
+                                <li>Built Master Agent as intelligent router using LLM-based intent analysis and prompt
+                                    engineering.</li>
+                                <li>Implemented streaming responses via WebSockets for real-time agent output.</li>
+                                <li>Engineered document processing with embedding-based retrieval (RAG) and PostgreSQL
+                                    knowledge base.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2025 -- Present</div>
+                        <div class="timeline-content">
+                            <h3>N8N Engineer</h3>
+                            <span class="company">hddisenos | Remote, Venezuela</span>
+                            <p class="role-desc">Automation Engineering</p>
+                            <ul>
+                                <li>Architected and implemented advanced automation workflows using N8N, reducing manual
+                                    workload by 60%.</li>
+                                <li>Integrated external systems including REST/SOAP APIs, CRMs (HubSpot, Zoho), and
+                                    SQL/NoSQL databases.</li>
+                                <li>Configured conditional branches, loops, and error handling for high reliability.
+                                </li>
+                                <li>Developed custom N8N nodes and leveraged webhooks for event-driven automation.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2025 -- Mar 2025</div>
+                        <div class="timeline-content">
+                            <h3>Vectorized Database Software Engineer</h3>
+                            <span class="company">InstaMailAI | Remote, USA</span>
+                            <p class="role-desc">AI Email Intelligence</p>
+                            <ul>
+                                <li>Designed and deployed high-performance vector search pipelines using MongoDB Atlas
+                                    Vector Search and Langchain.</li>
+                                <li>Implemented RAG architecture for real-time email response generation.</li>
+                                <li>Engineered robust backend systems using FastAPI for parsing and filtering emails.
+                                </li>
+                                <li>Optimized MongoDB queries and indexing strategies for low-latency vector similarity
+                                    search.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">June 2024 -- Aug 2024</div>
+                        <div class="timeline-content">
+                            <h3>Backend Software Engineer</h3>
+                            <span class="company">Seanz Law Firm | Remote, USA</span>
+                            <p class="role-desc">Interview Intelligence System</p>
+                            <ul>
+                                <li>Built a multilingual (English/Spanish) AI-powered interview assistant for
+                                    immigration law.</li>
+                                <li>Integrated OpenAI GPT-4 and Twilio API for WhatsApp/SMS communication.</li>
+                                <li>Enabled real-time dashboard reporting using Google Looker Studio.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jan 2024 -- May 2024</div>
+                        <div class="timeline-content">
+                            <h3>Backend Software Engineer</h3>
+                            <span class="company">NVIT Project | Remote, USA</span>
+                            <p class="role-desc">Secure Multi-Tenant SaaS System</p>
+                            <ul>
+                                <li>Developed a multi-role backend system (Customers, Engineers, Admins) with JWT-based
+                                    Authentication.</li>
+                                <li>Created dynamic ticketing system with Jira-style duplication.</li>
+                                <li>Integrated OpenAI GPT API for time estimation and recommendations.</li>
+                                <li>Live: <a href="https://jerichoai.io" target="_blank">https://jerichoai.io</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2023 -- Dec 2023</div>
+                        <div class="timeline-content">
+                            <h3>Backend Software Engineer</h3>
+                            <span class="company">2456.ai | Remote, USA</span>
+                            <p class="role-desc">AI Workflow Automation Platform</p>
+                            <ul>
+                                <li>Designed backend using Django (Monolith) and FastAPI (Microservices).</li>
+                                <li>Architected dual-database system using PostgreSQL and Pinecone Vector DB.</li>
+                                <li>Engineered AI-enhanced query flow and integrated Stripe API.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">July 2022 -- Present</div>
+                        <div class="timeline-content">
+                            <h3>Python Developer</h3>
+                            <span class="company">Fiverr | Self-employed</span>
+                            <p class="role-desc">Freelancing Platform</p>
+                            <ul>
+                                <li>Communicated with clients to facilitate order placements.</li>
+                                <li>Provided post-delivery support and revisions.</li>
+                                <li>Maintained a 5-star rating.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 8 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Mar 2022 -- July 2022</div>
+                        <div class="timeline-content">
+                            <h3>Data Engineer</h3>
+                            <span class="company">QPharma Project | Remote, USA</span>
+                            <p class="role-desc">Data Engineering & Analytics Architecture</p>
+                            <ul>
+                                <li>Built scalable ETL pipelines using AWS Glue, S3, and Lambda Functions.</li>
+                                <li>Applied pandas for large-scale data cleaning and feature engineering.</li>
+                                <li>Utilized Excalidraw to architect and visualize complex data pipelines.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">July 2018 -- June 2020</div>
+                        <div class="timeline-content">
+                            <h3>Beginner Python Developer</h3>
+                            <span class="company">Hostera | Bahawalpur</span>
+                            <p class="role-desc">Web & ML Development</p>
+                            <ul>
+                                <li>Developed Machine Learning models as ML Engineer.</li>
+                                <li>Developed a web application using Django and Docker.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Creative Work</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>ISGC & Emotion Analysis</h3>
+                            <p class="tech-stack">Python, Git</p>
+                            <p>
+                                <strong>ISGC:</strong> A GPA/CGPA calculator CLI tool specifically designed for students
+                                of Islamia University of Bahawalpur.
+                                <br>
+                                <strong>Emotion Analysis:</strong> A Python package leveraging transformer models for
+                                multi-class emotion classification.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/ahsantariq7/isgc" target="_blank">View ISGC</a>
+                                <a href="https://github.com/ahsantariq7/emotion_analysis" target="_blank">View Emotion
+                                    Analysis</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Laptop Monitoring System</h3>
+                            <p class="tech-stack">Python, OpenCV, smtplib</p>
+                            <p>
+                                Security-focused Python application that captures user images at login via webcam using
+                                OpenCV, logs events, and sends email alerts through SMTP. Cross-platform (Linux,
+                                Windows).
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/ahsantariq7/Linux-Monitoring-System" target="_blank">View
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Python</span><span>SQL</span><span>JavaScript</span><span>HTML/CSS</span><span>Bash</span><span>LaTeX</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skill-tags">
+                            <span>Django</span><span>FastAPI</span><span>DRF</span><span>Langchain</span><span>LangGraph</span><span>React</span><span>N8N</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI/ML & Data</h3>
+                        <div class="skill-tags">
+                            <span>OpenAI API
+                                (GPT-4)</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>TensorFlow</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases</h3>
+                        <div class="skill-tags">
+                            <span>PostgreSQL</span><span>MongoDB</span><span>Pinecone</span><span>Redis</span><span>AWS
+                                S3</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span>AWS</span><span>Azure</span><span>Docker</span><span>CI/CD</span><span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Publications</h2>
+                    <div class="line"></div>
+                </div>
+                <ul class="publications-list">
+                    <li>
+                        <a href="https://www.researchgate.net/publication/382074586_A_Python_Package_For_Summarizing_University_Student_Examination_Performance"
+                            target="_blank">
+                            A Python Package For Summarizing University Student Examination Performance
+                        </a>
+                        <span class="pub-details">ResearchGate | Main Author | 08-07-2024</span>
+                    </li>
+                    <li>
+                        <span>Perception on the Effect of Taxes on the Growth of Micro and Small Enterprises in Selected
+                            Entities</span>
+                        <span class="pub-details">Asian Journal of Economics, Business and Accounting | Peer Review |
+                            11-10-2025</span>
+                    </li>
+                    <li>
+                        <span>Identify the Perceived Constraints in the Use of Green Products</span>
+                        <span class="pub-details">Asian Journal of Agricultural Extension, Economics & Sociology | Peer
+                            Review | 27-09-2025</span>
+                    </li>
+                    <li>
+                        <span>Research on Young People's Credit Enhancement: Exploring Paths for Credit Building and
+                            Risk Management</span>
+                        <span class="pub-details">Asian Journal of Economics, Business and Accounting | Peer Review |
+                            28-01-2025</span>
+                    </li>
+                    <li>
+                        <span>The effect of Instagram Gen Z’s usage and demographic variables on purchase intention via
+                            nano-influencers</span>
+                        <span class="pub-details">Book of Innovation and Technology for Economic Growth | Peer Review |
+                            25-11-2025</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="grid-2-col">
+                    <div class="col">
+                        <div class="section-header">
+                            <h2 class="section-title">Education</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="edu-item">
+                            <h3>B.S. in Computer Systems Engineering</h3>
+                            <span class="institution">The Islamia University of Bahawalpur, Pakistan</span>
+                            <span class="year">2020 -- 2024</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="section-header">
+                            <h2 class="section-title">Awards & Certifications</h2>
+                            <div class="line"></div>
+                        </div>
+                        <ul class="cert-list">
+                            <li>PMYP Laptop Scheme Selection (Merit)</li>
+                            <li>Data Analysis With Python (FreeCodeCamp)</li>
+                            <li>Intro to SQL, ML, Feature Engineering (Kaggle)</li>
+                            <li>Data Mining And Business Intelligence (Navttc)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Identifiers -->
+        <section class="section" style="padding-top: 0;">
+            <div class="container">
+                <p style="text-align: center; font-size: 0.9rem; opacity: 0.7;">
+                    <strong>Web of Science ResearcherID:</strong> <a
+                        href="https://www.webofscience.com/wos/author/record/OMK-7734-2025"
+                        target="_blank">OMK-7734-2025</a> |
+                    <strong>ORCID:</strong> <a href="https://orcid.org/0009-0005-0673-8369"
+                        target="_blank">0009-0005-0673-8369</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <div class="container">
+                <h2>Let's Build Something Amazing Together</h2>
+                <div class="contact-card">
+                    <p>Open for opportunities in Backend Engineering, AI, and Automation.</p>
+                    <a href="mailto:ahsantariq0724@gmail.com" class="btn btn-primary">Say Hello</a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; <span id="year"></span> Ahsan Tariq. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
